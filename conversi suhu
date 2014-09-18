@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+main () {
+    float Celcius, Fahrenheit, Reamur;
+    printf("Masukkan nilai suhu dalam Celcius:");
+    scanf("%f", &Celcius);
+    Fahrenheit = (Celcius*1.8)+32;
+    Reamur = (Celcius*0.8);
+    printf("Dalam Fahrenheit menjadi %3.0f Fahrenheit \nDalam Reamur menjadi \t%3.0f Reamur", Fahrenheit, Reamur);
+}
